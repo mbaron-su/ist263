@@ -1,5 +1,25 @@
-body {font-family:'Courier New', Courier, monospace;}
-h1, h2 {color: #442BBD}
-p {color:#64D6CE}
+body {font-family:'Courier New', Courier, monospace;
+        color:#FD4803;
+        background-color: #D99B82; 
+}
 
-.special {color: #64D6CE}
+h1, h2 {color: #AC7E04}
+
+
+p {
+    background-color: #D99B82;
+    border: 1px solid #000000; 
+    padding: 15px; /* inside the border */
+    margin: 40px; /* space outside the border */
+}
+h1 { color: #333333;}
+a:link {color: #fffff;}
+a:visited {color: #ffffff;}
+/* pseuto selectors deal with a state of the element */
+a:hover {
+    background-color:#f1c7b6;
+    text-decoration-style: wavy;
+}
+.secondparagraph {
+    background-color:#D99B82;
+}
