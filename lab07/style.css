@@ -3,11 +3,11 @@ body {font-family:'Courier New', Courier, monospace;
         background-color: #f1c8b7; 
 }
 
-h1, h2 {color: #ac7f03}
+h1 {color: #ac7f03} 
+h2 {color: #ac7f03}
 .evenrow {background-color: #f5f177;}
 
 p {
-    color:#ac7f03; 
     background-color: #f1c8b7;
     border: 1px solid #000000; 
     padding: 15px; 
