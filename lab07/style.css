@@ -4,18 +4,17 @@ body {font-family:'Courier New', Courier, monospace;
 }
 
 h1, h2 {color: #ac7f03}
-
+.evenrow {background-color: #f5f177;}
 
 p {
     background-color: #f1c8b7;
     border: 1px solid #000000; 
-    padding: 15px; /* inside the border */
-    margin: 40px; /* space outside the border */
+    padding: 15px; 
+    margin: 40px; 
 }
 h1 { color: #333333;}
 a:link {color: #fffff;}
 a:visited {color: #ffffff;}
-/* pseuto selectors deal with a state of the element */
 a:hover {
     background-color:#f1c7b6;
     text-decoration-style: wavy;
