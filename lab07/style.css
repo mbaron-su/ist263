@@ -12,7 +12,7 @@ p {
     border: 1px solid #000000; 
 }
 h1 { color: #ac7f03;}
-a:link {color: #ffffff;}
+a:link {color: #807a7a;}
 a:visited {color: #000000;}
 a:hover {
     background-color:#f1c7b6;
@@ -23,7 +23,7 @@ a:hover {
 }
 nav {
     color: #000000;
-    background-color: #807a7a;
+    background-color: #ffffff;
     padding:10px;
     margin-bottom: 30px; 
 }
