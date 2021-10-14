@@ -10,8 +10,6 @@ h2 {color: #ac7f03;}
 p {
     background-color: #f1c8b7;
     border: 1px solid #000000; 
-    padding: 15px; 
-    margin: 40px; 
 }
 h1 { color: #ac7f03;}
 a:link {color: #ffffff;}
@@ -25,11 +23,10 @@ a:hover {
 }
 nav {
     background-color: #f1c8b7;
-    padding:15px;
-    margin: 40px; 
+    padding:10px;
+    margin-bottom: 30px; 
 }
-nav {margin-bottom: 30px}
 nav a {
     color:#ffffff;}
 
-nav a:hover {background-color: #ac7f03;} 
+nav a:hover {background-color: #f74f0c;} 
