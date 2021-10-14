@@ -3,8 +3,8 @@ body {font-family:'Courier New', Courier, monospace;
         background-color: #f1c8b7; 
 }
 
-h1 {color: #ac7f03} 
-h2 {color: #ac7f03}
+h1 {color: #ac7f03;} 
+h2 {color: #ac7f03;}
 .evenrow {background-color: #f5f177;}
 
 p {
