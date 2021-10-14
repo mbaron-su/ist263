@@ -22,11 +22,10 @@ a:hover {
     background-color:#f1c8b7;
 }
 nav {
+    color: #000000;
     background-color: #f1c8b7;
     padding:10px;
     margin-bottom: 30px; 
 }
-nav a {
-    color:#000000;}
 
 nav a:hover {background-color: #ac7f03;} 
