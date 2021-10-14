@@ -25,7 +25,10 @@ a:hover {
 }
 nav {
     background-color: #f1c8b7;
+    padding:15px;
+    margin: 40px; 
 }
+nav {margin-bottom: 30px}
 nav a {
     color:#ffffff;}
 
