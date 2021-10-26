@@ -1,0 +1,37 @@
+body {font-family:'Courier New', Courier, monospace;
+        color:#fd4b03;
+        background-color: #f1c8b7; 
+}
+
+h1 {color: #ac7f03;} 
+h2 {color: #ac7f03;}
+.evenrow {background-color: #f5f177;}
+
+
+
+h1 { color: #ac7f03;}
+a:link {color: #fd4b03;}
+a:visited {color: #000000;}
+a:hover {
+    background-color:#f1c7b6;
+    text-decoration-style: wavy;
+}
+.secondparagraph {
+    background-color:#f1c8b7;
+}
+nav {
+    color: #000000;
+    background-color: #ffffff;
+    padding:10px;
+    margin-bottom: 30px; 
+}
+
+nav a:hover {background-color: #ac7f03;} 
+
+h2 
+.technicalskills {text-align: center; border: 1px solid #000000} 
+
+
+
+
+
