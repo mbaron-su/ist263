@@ -29,7 +29,7 @@ nav {
 nav a:hover {background-color: #ac7f03;} 
 
 
-.technicalskills {text-align: center;} 
+.technicalskills {text-align: center; padding-top: 10px;} 
 .flexboxrow {display: flex;}
 
 
