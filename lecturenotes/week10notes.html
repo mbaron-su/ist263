@@ -8,12 +8,23 @@
             body {font-family: Arial, Helvetica, sans-serif;}
             .row1 { 
                 padding: 80px;
-                margin-top: 40px;}
-            .row1 div {
+                margin-top: 40px;
+                display: flex;
+            flex-wrap: wrap; /* allows columns to wrap into a second or third row when screens not wide */ 
+                                /* this won't do anything without sizing columns ours uses flex: 1 */
+                            }
+            .row1 div { /* this is a descendent selector, it selects div children in side .row1 */
                 padding: 40px;
+                flex: 1;
             }
-            .banner {width: 100%;}
-            .bannersmall {max-width: 100%;}
+            .banner {width: 100%;} /* use for a large image to scaled to width */
+            .bannersmall {max-width: 100%;} /* use it for a smaller image to scale */
+            /* ^^ both of these need to be inside a block container (div, article, etc.) */
+
+            @media only screen and (max-width: 600px) {
+                body {background-color: orange;}
+
+            }
         </style>
     </head>
     <body>
