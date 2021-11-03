@@ -23,8 +23,13 @@
 
             @media only screen and (max-width: 600px) {
                 body {background-color: orange;}
-
+                .box3 {display: none;} /* display: none removes things from screen */
+             }
+            /* from 0=600 pixels we will apply orange background */
+            @media only screen and (min-width: 1000px) {
+                body {background-color: blue;}
             }
+            /* from 1000 - infinity we will apply blue background */
         </style>
     </head>
     <body>
