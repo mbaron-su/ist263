@@ -34,11 +34,15 @@ nav a:hover {background-color: #ac7f03;}
 
 .photo {max-width: 100%;}
 
-@media only screen and (max-width: 1000px) {}
+   
+@media only screen and (max-width: 1000px) {
+    nav a {display: block; size: 100%; padding-top: 10px;} 
+    span {display: none;} 
+}
 
 @media only screen and (min-width: 600px) {
-    nav {display: block; size: 100%;}
 }
+
 
 
 
