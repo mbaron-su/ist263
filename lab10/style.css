@@ -32,6 +32,8 @@ nav a:hover {background-color: #ac7f03;}
 .technicalskills {text-align: center; padding-top: 10px;} 
 .flexboxrow {display: flex;}
 
+.photo {max-width: 100%;}
+
 
 
 
