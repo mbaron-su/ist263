@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+    <style>
+          /* skip to content is 3 things
+    1. html link "skip to content"
+    2. you need to put in your anchor- where it will skip to
+    3. style it in css- position absolute and left to make it dissapear
+    3b. bring it back by changing position
+    */ 
+        #skip {position: absolute;
+                left: -999px;
+                background-color: pink;
+        } /* positions the element relative to it's parent */
+        /* pound sign before selector means your selecting by id*/
+        #skip:focus {
+            left: 10px; /* move the skip back on screen when its tabbed too */
+        }
+    </style>
+</head>
+<body>
+    <a id="skip" href="#content">Skip to Content</a>
+    <!-- that pound sign says this link is moving you down the page-->
+    <a href="index.html" tabindex= "3"> Home </a>
+    <a href="about.html" tabindex="2"> About</a>
+    <a href= "contact.html" tabindex= "1"> Contact </a>
+
+<!-- tabindex is an html attribute that will change the order items are selected as you tab through this-->
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna porttitor rhoncus dolor purus. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Eget gravida cum sociis natoque penatibus et magnis. Mattis enim ut tellus elementum sagittis. Malesuada nunc vel risus commodo viverra. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Arcu cursus euismod quis viverra. Feugiat nisl pretium fusce id velit ut tortor. Posuere lorem ipsum dolor sit. Vel pharetra vel turpis nunc eget lorem dolor sed. Accumsan in nisl nisi scelerisque eu ultrices vitae. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Sed enim ut sem viverra aliquet eget sit amet.</p>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna porttitor rhoncus dolor purus. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Eget gravida cum sociis natoque penatibus et magnis. Mattis enim ut tellus elementum sagittis. Malesuada nunc vel risus commodo viverra. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Arcu cursus euismod quis viverra. Feugiat nisl pretium fusce id velit ut tortor. Posuere lorem ipsum dolor sit. Vel pharetra vel turpis nunc eget lorem dolor sed. Accumsan in nisl nisi scelerisque eu ultrices vitae. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Sed enim ut sem viverra aliquet eget sit amet.</p>
+
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna porttitor rhoncus dolor purus. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Eget gravida cum sociis natoque penatibus et magnis. Mattis enim ut tellus elementum sagittis. Malesuada nunc vel risus commodo viverra. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Arcu cursus euismod quis viverra. Feugiat nisl pretium fusce id velit ut tortor. Posuere lorem ipsum dolor sit. Vel pharetra vel turpis nunc eget lorem dolor sed. Accumsan in nisl nisi scelerisque eu ultrices vitae. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Sed enim ut sem viverra aliquet eget sit amet.</p>
+
+    <a id="content"></a> <!-- this is an anchor point to allow a link to move you here-->
+    <p> This is the forth paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna porttitor rhoncus dolor purus. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Eget gravida cum sociis natoque penatibus et magnis. Mattis enim ut tellus elementum sagittis. Malesuada nunc vel risus commodo viverra. Ullamcorper a lacus vestibulum sed arcu non odio euismod. Arcu cursus euismod quis viverra. Feugiat nisl pretium fusce id velit ut tortor. Posuere lorem ipsum dolor sit. Vel pharetra vel turpis nunc eget lorem dolor sed. Accumsan in nisl nisi scelerisque eu ultrices vitae. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Sed enim ut sem viverra aliquet eget sit amet.</p>
+
+
+</body>
+</html>
