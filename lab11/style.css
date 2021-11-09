@@ -1,5 +1,5 @@
 body {font-family:'Courier New', Courier, monospace;
-        color:#fd4b03;
+        color:#D93F02;
         background-color: #f1c8b7; 
         font-size: 120%;
 }
@@ -15,7 +15,7 @@ h2 {color: #ac7f03;
 
 
 h1 { color: #ac7f03;}
-a:link {color: #fd4b03;}
+a:link {color: #D93F02;}
 a:visited {color: #000000;}
 a:hover {
     background-color:#f1c7b6;
