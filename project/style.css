@@ -1,11 +1,31 @@
 body {font-family:'Courier New', Courier, monospace;
-    color: #000000;
-    background-color: yellow;
-    font-size: 120%;
+    color: #2C476E;
+    background-color: #FFDFD9;
+    font-size: 100%;
 } 
 
-h1 {color: pink;
+h1 {color: #BE5987;
+    font-size: 200%;
+    text-align: center;
 }
+a:link {color: #BE5987;}
+a:visited {color: #ffffff;}
+
+h2 {color:#BE5987;
+    font-size: 130%;
+}
+
+nav {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 120%; 
+    background-color: #2C476E;
+    padding:10px;
+    margin-bottom: 30px; 
+    border-radius: 30px; 
+}
+
+
+nav a:hover {background-color:#80B3E1;} 
 
 .image {display: flex; justify-content: center;}
 
