@@ -1,0 +1,12 @@
+body {font-family:'Courier New', Courier, monospace;
+    color: #000000;
+    background-color: yellow;
+    font-size: 120%;
+} 
+
+h1 {color: pink;
+}
+
+.image {display: flex; justify-content: center;}
+
+
