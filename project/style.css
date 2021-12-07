@@ -35,16 +35,16 @@ nav {
 
 nav a:hover {background-color:#80B3E1;} 
 
-.image {display: flex; justify-content: center; max-width: 100%;}
+.image {display: flex; justify-content: center; max-width: 100%; flex-wrap: wrap;}
 
-.timeline {display: flex; justify-content: center; max-width: 100%;}
+.timeline {display: flex; flex-wrap: wrap; justify-content: center; max-width: 100%;}
 
 
-.londonimages {display: flex; justify-content: space-between; padding: 30px;}
+.londonimages {display: flex; flex-wrap: wrap; justify-content: space-between; padding: 30px;}
 .londonimage img {flex: 1;}
 
 
-.parisimages {display: flex; justify-content: space-between; padding: 30px; padding-right: 30px;}
+.parisimages {display: flex; flex-wrap: wrap; justify-content: space-between; padding: 30px; padding-right: 30px;}
 
 .paraguay {display: flex;}
 .paraguaytext {font-size: 100%;}
@@ -54,7 +54,7 @@ nav a:hover {background-color:#80B3E1;}
     border-radius: 20px; padding: 25px; margin-bottom: 20px; width: 250px; }
     .resize {width: 200px;}
 
-.cuba {display: flex; }
+.cuba {display: flex; flex-wrap: wrap;}
 .end {font-size: 100%;}
 .resize2 {width: 200px;}
 
