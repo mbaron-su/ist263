@@ -47,8 +47,17 @@ nav a:hover {background-color:#80B3E1;}
 .parisimages {display: flex; justify-content: space-between; padding: 30px; padding-right: 30px;}
 
 .paraguay {display: flex;}
-.cubapictures {}
+.paraguaytext {font-size: 150%;}
+.firsthola {font-size: 150%;} 
+.border {display: flex; justify-content: center; background-color: #2C476E; 
+    border-radius: 20px; padding: 25px; margin-bottom: 20px; }
 
+.cuba {display: flex; }
+.end {font-size: 180%;}
+
+
+.cubatext {font-size: 150%;}
+.hola {font-size: 150%;}
 
 span {color: #ffffff}
 
