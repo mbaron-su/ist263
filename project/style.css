@@ -19,7 +19,7 @@ a:link {color: #CCCCCC;}
 a:visited {color: #ffffff;}
 
 h2 {color:#2C476E;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 nav {
@@ -47,17 +47,20 @@ nav a:hover {background-color:#80B3E1;}
 .parisimages {display: flex; justify-content: space-between; padding: 30px; padding-right: 30px;}
 
 .paraguay {display: flex;}
-.paraguaytext {font-size: 150%;}
-.firsthola {font-size: 150%;} 
+.paraguaytext {font-size: 100%;}
+
+.firsthola {font-size: 100%;} 
 .border {display: flex; justify-content: center; background-color: #2C476E; 
-    border-radius: 20px; padding: 25px; margin-bottom: 20px; }
+    border-radius: 20px; padding: 25px; margin-bottom: 20px; width: 250px; }
+    .resize {width: 200px;}
 
 .cuba {display: flex; }
-.end {font-size: 180%;}
+.end {font-size: 100%;}
+.resize2 {width: 200px;}
 
 
-.cubatext {font-size: 150%;}
-.hola {font-size: 150%;}
+.cubatext {font-size: 100%;}
+.hola {font-size: 100%;}
 
 span {color: #ffffff}
 
@@ -68,6 +71,8 @@ span {color: #ffffff}
 
 @media only screen and (min-width: 600px) {
 }
+
+.allimages {max-width: 100%} 
 
 
 
