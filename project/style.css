@@ -65,7 +65,7 @@ nav a:hover {background-color:#80B3E1;}
 span {color: #ffffff}
 
 @media only screen and (max-width: 600px) {
-    nav a {display: block; size: 100%; padding-top: 10px;} 
+    nav a {display: block; size: 100%; padding-top: 30px;} 
     span {display: none;} 
 }
 
