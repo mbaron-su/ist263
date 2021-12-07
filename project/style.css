@@ -54,7 +54,7 @@ nav a:hover {background-color:#80B3E1;}
     border-radius: 20px; padding: 25px; margin-bottom: 20px; width: 250px; }
     .resize {width: 200px;}
 
-.cuba {display: flex; flex-wrap: wrap;}
+.cuba {display: flex;}
 .end {font-size: 100%;}
 .resize2 {width: 200px;}
 
