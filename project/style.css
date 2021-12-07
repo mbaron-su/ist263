@@ -43,11 +43,11 @@ nav a:hover {background-color:#80B3E1;}
 .londonimages {display: flex; justify-content: space-between; padding: 30px;}
 .londonimage img {flex: 1;}
 
-.paraguay {float: left;}
 
 .parisimages {display: flex; justify-content: space-between; padding: 30px; padding-right: 30px;}
 
-.cubapictures {float: right;}
+.paraguay {display: flex;}
+.cubapictures {}
 
 
 span {color: #ffffff}
