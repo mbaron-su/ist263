@@ -40,11 +40,11 @@ nav a:hover {background-color:#80B3E1;}
 .timeline {display: flex; flex-wrap: wrap; justify-content: center; max-width: 100%;}
 
 
-.londonimages {display: flex; flex-wrap: wrap; justify-content: space-between; padding: 30px;}
+.londonimages {display: flex; justify-content: space-between; padding: 30px;}
 .londonimage img {flex: 1;}
 
 
-.parisimages {display: flex; flex-wrap: wrap; justify-content: space-between; padding: 30px; padding-right: 30px;}
+.parisimages {display: flex; justify-content: space-between; padding: 30px; padding-right: 30px;}
 
 .paraguay {display: flex;}
 .paraguaytext {font-size: 100%;}
@@ -69,10 +69,6 @@ span {color: #ffffff}
     span {display: none;} 
 }
 
-@media only screen and (min-width: 600px) {
-    nav a {display: block; size: 100%; padding-top: 10px;} 
-    span {display: none;} 
-}
 
 .allimages {max-width: 100%} 
 
