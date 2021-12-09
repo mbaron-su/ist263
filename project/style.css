@@ -71,7 +71,7 @@ span {color: #ffffff}
 
 @media only screen and (max-width: 600px) {
     nav a {display: block; size: 100%; padding-top: 30px;} 
-    span {display: none;} 
+    span {display: none; flex-wrap: wrap;} 
 }
 
 
