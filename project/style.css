@@ -53,6 +53,11 @@ nav a:hover {background-color:#80B3E1;}
 .border {display: flex; justify-content: center; background-color: #2C476E; 
     border-radius: 20px; padding: 25px; margin-bottom: 20px; width: 250px; }
     .resize {width: 200px;}
+    .border2 {justify-content: center; background-color: #2C476E; 
+        border-radius: 20px; padding: 20px; margin-bottom: 50px; width: 930px;}
+
+        .border3 {background-color: #ffffff; border-radius:20px; padding: 18px; margin-bottom: 50px; width: 1180px;}
+       
 
 .cuba {display: flex;}
 .end {font-size: 100%;}
