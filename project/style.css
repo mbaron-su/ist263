@@ -42,12 +42,15 @@ nav a:hover {background-color:#80B3E1;}
 .container{
     position: relative;
     text-align: center;
-    color: #2C476E 
+    color: #2C476E; 
+    display: flex; justify-content: center; max-width: 100%; flex-wrap: wrap;
 }
 .bottom-middle {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 82px;
+    right: 223px;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 .londonimages {display: flex; justify-content: space-between; padding: 30px;}
