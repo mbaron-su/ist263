@@ -93,8 +93,8 @@ span {color: #ffffff}
         .bottom-middle {
             position: relative;
             bottom: 22px;
-            right: 90px;
-            font-size: 80%;
+            right: 50px;
+            font-size: 50%;
             font-weight: bold;
         }
         .cubatext {flex: 1;}
