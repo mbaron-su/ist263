@@ -112,11 +112,11 @@ span {color: #ffffff}
             font-size: 100%;
         }
 
-        h1 {
+        h2 {
             font-size: 180%;
         }
 
-        h2 {
+        h1 {
             font-size: 210%; 
         }
         nav {
@@ -131,7 +131,19 @@ span {color: #ffffff}
 
 
 
+    @media only screen and (max-width: 768px)
+   {
 
+    .container {
+        position: relative; text-align: center; color: #2C476E; display: flex; justify-content: center; max-width: 100%; flex-wrap: wrap;}
+
+        .bottom-middle {
+            position: relative;
+            bottom: 52px;
+            right: 125px;
+            font-size: 60%;
+            font-weight: bold;}
+        }
 
 .allimages {max-width: 100%} 
 
