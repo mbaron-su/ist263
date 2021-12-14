@@ -113,7 +113,7 @@ span {color: #ffffff}
         }
 
         h2 {
-            font-size: 180%;
+            font-size: 150%;
         }
 
         h1 {
@@ -130,7 +130,7 @@ span {color: #ffffff}
     }
 
 
-    @media only screen and (max-width: 768px)
+    @media only screen and (max-width: 1000px)
    {
 
     .container {
