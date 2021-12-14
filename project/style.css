@@ -53,11 +53,12 @@ nav a:hover {background-color:#80B3E1;}
     font-weight: bold;
 }
 
-.londonimages {display: flex; justify-content: space-between; padding: 30px;}
+.londonimages {display: flex; justify-content: space-between; padding: 30px; padding-right: 30px; flex-wrap: wrap}
 .londonimage img {flex: 1;}
 
 
 .parisimages {display: flex; justify-content: space-between; padding: 30px; padding-right: 30px; flex-wrap: wrap}
+.image img {flex: 1;}
 
 .paraguay {display: flex;}
 .paraguaytext {font-size: 100%;}
@@ -90,6 +91,7 @@ span {color: #ffffff}
         position: relative; text-align: center; color: #2C476E; display: flex; justify-content: center; max-width: 100%; flex-wrap: wrap;}
 
         .cuba {display: flex; flex-wrap: wrap;}
+        .paraguay {display: flex; flex-wrap: wrap;}
         .bottom-middle {
             position: relative;
             bottom: 22px;
