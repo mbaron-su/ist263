@@ -137,13 +137,12 @@ span {color: #ffffff}
 
         .bottom-middle {
             position: relative;
-            bottom: 72px;
-            right: 240px;
-            font-size: 100%;
+            bottom: 40px;
+            right: 90px;
+            font-size: 80%;
             font-weight: bold;
         }
     }
- 
 
 
 .allimages {max-width: 100%} 
