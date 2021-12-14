@@ -102,8 +102,22 @@ span {color: #ffffff}
         .cubatext {flex: 1;}
         .cubapictures {flex: 1;}
 
-        .allimages { width: 100%;
+        .allimages { width: 100%;}
+        
+        body {
+            font-size: 90%;
+        } 
 
+        p {
+            font-size: 90%;
+        }
+
+        h1 {
+            font-size: 200%;
+        }
+
+        h2 {
+            font-size: 100%; 
         }
     }
 
