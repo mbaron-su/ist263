@@ -95,8 +95,8 @@ span {color: #ffffff}
         .bottom-middle {
             position: relative;
             bottom: 22px;
-            right: 10px;
-            font-size: 90%;
+            right: 100px;
+            font-size: 10%;
             font-weight: bold;
         }
         .cubatext {flex: 1;}
@@ -129,7 +129,6 @@ span {color: #ffffff}
             padding: 8.5px; }
     }
 
-
     @media only screen and (max-width: 1000px)
    {
 
@@ -138,12 +137,14 @@ span {color: #ffffff}
 
         .bottom-middle {
             position: relative;
-            bottom: 22px;
-            right: 100px;
-            font-size: 90%;
+            bottom: 72px;
+            right: 240px;
+            font-size: 100%;
             font-weight: bold;
         }
     }
+ 
+
 
 .allimages {max-width: 100%} 
 
