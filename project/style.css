@@ -95,7 +95,7 @@ span {color: #ffffff}
         .bottom-middle {
             position: relative;
             bottom: 22px;
-            right: 50px;
+            right: 10px;
             font-size: 50%;
             font-weight: bold;
         }
@@ -139,7 +139,7 @@ span {color: #ffffff}
         .bottom-middle {
             position: relative;
             bottom: 22px;
-            right: 50px;
+            right: 100px;
             font-size: 50%;
             font-weight: bold;
         }
