@@ -119,6 +119,14 @@ span {color: #ffffff}
         h2 {
             font-size: 210%; 
         }
+        nav {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 120%; 
+            background-color: #2C476E;
+            padding: 8px;
+            margin-bottom: 20px; 
+            border-radius: 20px;
+            padding: 8.5px; }
     }
 
 
