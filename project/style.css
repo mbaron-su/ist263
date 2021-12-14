@@ -95,8 +95,8 @@ span {color: #ffffff}
         .bottom-middle {
             position: relative;
             bottom: 22px;
-            left: 10px;
-            font-size: 50%;
+            right: 10px;
+            font-size: 90%;
             font-weight: bold;
         }
         .cubatext {flex: 1;}
@@ -139,8 +139,8 @@ span {color: #ffffff}
         .bottom-middle {
             position: relative;
             bottom: 22px;
-            left: 100px;
-            font-size: 50%;
+            right: 100px;
+            font-size: 90%;
             font-weight: bold;
         }
     }
