@@ -92,9 +92,9 @@ span {color: #ffffff}
         .cuba {display: flex; flex-wrap: wrap;}
         .bottom-middle {
             position: relative;
-            bottom: 82px;
-            right: 223px;
-            font-size: 150%;
+            bottom: 22px;
+            right: 90px;
+            font-size: 80%;
             font-weight: bold;
         }
         .cubatext {flex: 1;}
