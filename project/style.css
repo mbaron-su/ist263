@@ -46,7 +46,7 @@ nav a:hover {background-color:#80B3E1;}
     display: flex; justify-content: center; max-width: 100%; flex-wrap: wrap;
 }
 .bottom-middle {
-    position: absolute;
+    position: relative;
     bottom: 82px;
     right: 223px;
     font-size: 150%;
@@ -79,7 +79,7 @@ nav a:hover {background-color:#80B3E1;}
 
 
 .cubatext {font-size: 120%;}
-.hola {font-size: 100%;}
+.hola {font-size: 120%;}
 
 span {color: #ffffff}
 
