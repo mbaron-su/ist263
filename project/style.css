@@ -85,7 +85,7 @@ nav a:hover {background-color:#80B3E1;}
 span {color: #ffffff}
 
 @media only screen and (max-width: 600px) {
-    nav a {display: block; size: 100%; padding-top: 30px;} 
+    nav a {display: block; size: 80%; padding-top: 30px;} 
     span {display: none; flex-wrap: wrap;}
     .container {
         position: relative; text-align: center; color: #2C476E; display: flex; justify-content: center; max-width: 100%; flex-wrap: wrap;}
